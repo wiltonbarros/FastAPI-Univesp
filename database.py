@@ -22,7 +22,8 @@ def instance_cursor():
         if connection:
             cursor.close()
             connection.close()
-            # print('Conexão finalizada') # Opcional: remova esta linha em produção
+            # print('Conexão finalizada') # Opcional: remova esta linha em produção   
+            
 
 def get_user_from_db(username: str):
     """
