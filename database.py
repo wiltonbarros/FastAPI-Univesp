@@ -9,7 +9,7 @@ DATABASE = os.getenv("DATABASE")
 HOST = os.getenv("HOST")
 USERSERVER = os.getenv("USERSERVER")
 PASSWORD = os.getenv("PASSWORD")
-PORT = os.getenv("PORT")
+PORT = os.getenv("PORTDB")
 
 @contextmanager
 def instance_cursor():
